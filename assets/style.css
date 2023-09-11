@@ -1,13 +1,22 @@
 header {
     height: 100px;
     width: 100%;
-    background-color: saddlebrown;
-    border-bottom: 30px solid gold;
+    background-color: hsla(135, 76%, 31%, 0.658);
+    border-bottom: 10px solid rgba(53, 138, 95, 0.753);
+    color:black
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    background-color: hsla(135, 76%, 31%, 0.658);
+    border-top: 10px solid rgba(53, 138, 95, 0.753);
 }
 
 .section-1 {
     background-color: white;
-    padding: 200px green;
     border: 20px black;
     color: black;
     font-family: monospace;
@@ -17,23 +26,24 @@ header {
 }
 
 .section-2 {
-    border-top: 20px solid gold;
-    background-color: saddlebrown;
-    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: hwb(0 22% 74%);
+    border: 10px solid gray;
+    padding: auto;
+    color:white;
     font-family:monospace;
     text-align: center;
+    position: relative;
+    px;    
 }
 
-h1, h3 {
+*h1, h3 {
     text-align: center;
     font-family:monospace;
 }
 
-footer {
-    text-align: center;
-    font-family: monospace;
-    background-color: gold;
-}
+
 
 .menu-items {
     display:inline;
@@ -41,13 +51,11 @@ footer {
     font-family: monospace;
     font-size:larger;
     position:relative;
-    top: 110px;
-    left: 900px;
-
+    top: 70px;
+    left:80%
 }
 
 img {
-    padding: 100px 100px gold;
     border: 10px solid gray;
 
 }
